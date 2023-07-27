@@ -1,0 +1,118 @@
+header {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    background-color: hsl(0, 4%, 25%);
+}
+
+/*NAVBAR*/
+.navbar {
+    background-color: hsl(0, 4%, 25%);
+    overflow: hidden;
+    position: fixed; /* Change from "static" to "fixed" */
+    left: 0;
+    right: 0;
+    font-family: "Open Sans";
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block; 
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: hsl(0, 4%, 20%);
+}
+
+.navbar li{
+    flex: 1;
+}
+
+/*WELCOME SECTION*/
+#welcome-section{
+    margin: 0px;
+    padding: 100px;
+    height: 800px;
+    font-family: "Open Sans";
+    
+}
+
+table{
+    margin-top:20px;
+    border-collapse: collapse;
+}
+
+#job-title{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 225px;
+    letter-spacing: 12px;
+}
+
+#introduction{
+    margin-top: -20px;
+    margin-bottom: 5px;
+    color:#ff4040;
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.white-icon{
+    filter:brightness(0)
+}
+
+table{
+    margin: auto;
+}
+
+table td{
+    padding-inline: 10px;
+}
+
+
+#about{
+    font-family: "Open Sans";
+    color: white;
+    max-width: 900px; /* Add a maximum width to center the content */
+    margin: 0 auto; /* Center the content horizontally */
+    height: 1000px
+}
+
+.p1{
+    text-align: justify;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+#p2{
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#who{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 53px;
+}
+
+.red{
+    color:#ff4040;
+    font-weight: bold;
+}
+

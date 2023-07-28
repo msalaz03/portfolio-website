@@ -44,7 +44,7 @@ body {
 #welcome-section{
     margin: 0px;
     padding: 100px;
-    height: 800px;
+    height: 1000px;
     font-family: "Open Sans";
     
 }
@@ -76,11 +76,11 @@ table{
     filter:brightness(0)
 }
 
-table{
+#welcome-table{
     margin: auto;
 }
 
-table td{
+#welcome-table td{
     padding-inline: 10px;
 }
 
@@ -115,4 +115,100 @@ table td{
     color:#ff4040;
     font-weight: bold;
 }
+
+#projects{
+    height: 1200px;
+}
+
+/* PROJECTS SECTION */
+#projects-heading{
+    font-size: 73px;
+    color:white;
+    font-weight: bold;
+    font-family: "Open Sans";
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
+/* Project Classes Left Side Alignment*/
+
+.project-elements-left {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 500px;
+    max-height: 350px;
+    margin-left: 400px;
+    margin-bottom: 25px; 
+}
+
+.project-name-left{
+    color:#ff4040;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: -5px;
+}
+
+.project-explanation-left{
+    color:white;
+    font-size: 18px;
+}
+
+.source-skills-left{
+    color:white;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.skills-table-left{
+    margin-top: -10px;
+}
+
+.skills-table-left td{
+    padding-inline-end: 10px;  
+}
+
+
+/* Project Classes Right Side Alignment */
+
+.project-elements-right {
+    display: inline-block;
+    margin-left: 300px;
+    vertical-align: top;
+    max-width: 500px;
+    max-height: 350px;
+    padding-bottom: 25px; 
+}
+
+
+.project-name-right{
+    color:#ff4040;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: -5px;
+}
+
+.project-explanation-right{
+    color:white;
+    font-size: 18px;
+}
+
+.source-skills-right{
+    vertical-align: top;
+    padding-top: 5px;
+    color:white;
+    font-weight: bold;
+}
+
+.skills-table-right{
+    margin-top: -10px;
+}
+
+.skills-table-right td{
+    padding-inline-end: 10px;
+}
+
+
 

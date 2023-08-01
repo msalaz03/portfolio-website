@@ -7,23 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matthew-Salazar-Portfolio</title>
     <link rel = "stylesheet" href = "style.css"> 
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Tektur:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Oswald:wght@500;600&family=Tektur:wght@700&display=swap" rel="stylesheet">
+
 </head>
 
 <header>
     <nav class = "navbar">
             <ul class>
-                <li><a href = "">HOME</a></li>
-                <li><a href = "">ABOUT</a></li>
-                <li> <a href = "">PROJECTS</a></li>
+                <li><a href = "#welcome">HOME</a></li>
+                <li><a href = "#about-tab">ABOUT</a></li>
+                <li> <a href = "#projects-tab">PROJECTS</a></li>
             </ul>
     </nav>
 </header>
 
 <body>
-    <div id = "welcome-section">
+  
+    <div class = "welcome-section" id = "welcome">
+        <video autoplay loop muted plays-inline class = "back-video"> 
+            <source src = "icons/website background.mp4" type = "video/mp4">
+        </video>
         <h4 id = "job-title">COMPUTER ENGINEER</h4>
         <h1 id = "introduction">Hi, I'm Matthew </h1>
         <table id = "welcome-table">
@@ -35,7 +41,10 @@
         </table>
     </div>
 
+    <div class = "spacer" id = "about-tab"></div>
     <div id="about">
+
+
         <h1 id="who">WHO AM I?</h1>
         <p class="p1">Hello, my name is Matthew Salazar, and I am a second-year <span class="red">Computer Engineering</span> student at the <span class="red">University of Guelph</span>.</p>
         <p class="p1">Why <span class="red">computer engineering</span>? My passion for computers started at a young age but grew significantly during my first dedicated computer engineering course in high school. This course provided me with a strong foundation in various skills such as creating virtual machines, networking, robotics, Arduino, and programming.</p>
@@ -44,40 +53,42 @@
     </div>
     
     <main>
-        
+        <div class = "spacer" id = "projects-tab"></div>
         <div id = "projects">
             <h1 id = projects-heading>PROJECTS</h1>
 
-            <span class = "project-elements-left">
-                <h1 class = "project-name-left">File Processing System</h1>
-                <p class = "project-explanation-left">An outlined project given by California based company Laserfiche as our final Java project I was tasked with creating file processing system that was capable of handling various scenarios which would then output the following files that match the given conditions.</p>
-                <h4 class = "source-skills-left">Source Code & Skills:</h4>
-                <table class = "skills-table-left">
+        <div class  = "container"> 
+
+            <div class = "project-elements">
+                <h1 class = "project-name">File Processing System</h1>
+                <p class = "project-explanation">An outlined project given by California based company Laserfiche as our final Java project I was tasked with creating file processing system that was capable of handling various scenarios which would then output the following files that match the given conditions.</p>
+                <h4 class = "source-skills">Source Code & Skills:</h4>
+                <table class = "skills-table">
                     <tr>
                         <td><img src = "icons/java icon.png" height = "30px"></td>
                         <td><img src = "icons/git logo.png" height = "30px"></td>
                         <td><a href = "https://github.com/msalaz03/Laserfiche-ENGG-1420-" target = "_blank"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i></a></td>                        
                     </tr>
                 </table>
-            </span>
+            </div>
 
-            <span  class = "project-elements-right">
-                <h1 class = "project-name-right">Cryptomagic</h1>
-                <p class = "project-explanation-right">Given a text file I was able to create a program that encrypted the contents within the file with a custom encryption method, the program was also capable of decrypting.</p>
-                <h4 class = "source-skills-right">Source Code & Skills:</h4>
-                <table class = "skills-table-right">
+            <div  class = "project-elements">
+                <h1 class = "project-name">Cryptomagic</h1>
+                <p class = "project-explanation">Given a text file I was able to create a program that encrypted the contents within the file with a custom encryption method, the program was also capable of decrypting.</p>
+                <h4 class = "source-skills">Source Code & Skills:</h4>
+                <table class = "skills-table">
                     <tr>
                         <td><img src = "icons/c-logo.png" height = "30px"></td>
                         <td><a href = "https://github.com/msalaz03/ENGG-1410-Final-Projects" target = "_blank"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i></a></td>                         
                     </tr>
                 </table>
-            </span>
+            </div>
 
-            <span class = "project-elements-left">
-                <h1 class = "project-name-left">Teddy Bear Wheel Chair</h1>
-                <p class = "project-explanation-left">First year engineering project, given a budget and criteria that needed to be met as first year engineering we were tasked with creating a wheel chair capable of moving, climbing over hurdles and as well as shooting a target at a given distance. Full circuit drawing using autocad and assembly of project through Solidworks were all required to be completed as well.</p>
-                <h4 class = "source-skills-left">Source Code & Documentation:</h4>
-                <table class = "skills-table-left">
+            <div class = "project-elements">
+                <h1 class = "project-name">Teddy Bear Wheel Chair</h1>
+                <p class = "project-explanation">First year engineering project, given a budget and criteria that needed to be met as first year engineering we were tasked with creating a wheel chair capable of moving, climbing over hurdles and as well as shooting a target at a given distance. Full circuit drawing using autocad and assembly of project through Solidworks were all required to be completed as well.</p>
+                <h4 class = "source-skills">Skills & Documentation:</h4>
+                <table class = "skills-table">
                     <tr>
                         <td><img src = "icons/c++-logo.png" height = "30px"></td>
                         <td><img src = "icons/arduino.png" height = "30px"></td>
@@ -87,13 +98,14 @@
                     </tr>
                 </table>
 
-            </span>
+            </div>
 
-            <span  class = "project-elements-right">
-                <h1 class = "project-name-right">Robotic Hand</h1>
-                <p class = "project-explanation-right">A robotic hand capable of mimicking a person's finger movements. The hand utilizes the nRF24L01 wireless communication module and is controlled by Arduino Nanos. Used Solidworks to design custom parts such as the palm, forearm and servo bed. In order to organize and connect the electrical components, I employed a PCB.</p>
-                <h4 class = "source-skills-right">Source Code, Skills & Documentation:</h4>
-                <table class = "skills-table-right">
+
+            <div  class = "project-elements">
+                <h1 class = "project-name">Robotic Hand</h1>
+                <p class = "project-explanation">A robotic hand capable of mimicking a person's finger movements. The hand utilizes the nRF24L01 wireless communication module and is controlled by Arduino Nanos. Used Solidworks to design custom parts such as the palm, forearm and servo bed. In order to organize and connect the electrical components, I employed a PCB.</p>
+                <h4 class = "source-skills">Source Code, Skills & Documentation:</h4>
+                <table class = "skills-table">
                     <tr>
                         <td><img src = "icons/c++-logo.png" height = "30px"></td>
                         <td><img src = "icons/arduino.png" height = "30px"></td>
@@ -103,13 +115,13 @@
                         <td><a href = "" target = "_blank"><img src = "icons/pdf.png" height = "30px"></a></td>                          
                     </tr>
                 </table>
-            </span>
+            </div>
 
-            <span class = "project-elements-left">
-                <h1 class = "project-name-left">Discord Reminder Bot</h1>
-                <p class = "project-explanation-left">First year engineering project, given a budget and criteria that needed to be met as first year engineering we were tasked with creating a wheel chair capable of moving, climbing over hurdles and as well as shooting a target at a given distance. Full circuit drawing using autocad and assembly of project through Solidworks were all required to be completed as well.</p>
-                <h4 class = "source-skills-left">Source Code & Skills:</h4>
-                <table class = "skills-table-left">
+            <div class = "project-elements">
+                <h1 class = "project-name">Discord Reminder Bot</h1>
+                <p class = "project-explanation">Developed an alarm bot leveraging Discord's API and asyncio library. The program ensured timely notifications for impending exams and tests. By seamlessly integrating with Discord.</p>
+                <h4 class = "source-skills">Source Code & Skills:</h4>
+                <table class = "skills-table">
                     <tr>
                         <td><img src = "icons/python logo.png" height = "30px"></td>
                         <td><i class="fa-brands fa-discord fa-2xl" style="color: #7289d9;"></i></td>    
@@ -118,7 +130,16 @@
                     </tr>
                 </table>
 
-            </span>
+            </div>
+        
+        </div>
+                
+
+              
+                
+    
+               
+               
 
 
 

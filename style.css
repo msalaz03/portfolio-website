@@ -164,7 +164,7 @@ html{
     align-items: flex-start; /* Align items to the start of the container horizontally */
     flex: 0 0 calc(50% - 20px); /* Set each item to take 50% width with 20px gap on each side */
     max-width: 500px;
-    max-height: 375px;
+    max-height: 400px;
     margin-bottom: 25px;
     overflow: hidden;
   }

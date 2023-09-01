@@ -1,28 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-  /* Center-align the text and elements */
-  body {
-    text-align: center;
-  }
-  h1, h2, p {
-    text-align: center;
-  }
-</style>
-</head>
-<body>
+<h1 align = "center"> My Personal Portfolio</h1>
 
-<h1>My Personal Portfolio Website</h1>
+<p align = "center">Get to know a little about me or check out all my completed projects maybe not listed on here.</p>
 
-<p>A purely static website programmed only using HTML/CSS</p>
-
-<h2><a href="https://matthew-salazar.vercel.app/">https://matthew-salazar.vercel.app/</a></h2>
-
-</body>
-</html>
-In this code, we have a <style> block in the <head> section where we define CSS rules to center-align the text and elements within the body. This will center-align the <h1>, <h2>, and <p> elements as you requested.
-
+<h3 align = "center"><a href = "https://matthew-salazar.vercel.app/">Matthew-Salazar</a></h3>
 
 
 

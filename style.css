@@ -29,7 +29,7 @@ html{
 
 
 .spacer{
-  height: 100px;
+  height: 75px;
 }
 
 /*NAVBAR*/
@@ -136,7 +136,7 @@ html{
 }
 
 #projects{
-    height: 1200px
+    height: 1500px
 }
 /* PROJECTS SECTION */
 #projects-heading{
@@ -145,7 +145,7 @@ html{
     font-weight: bold;
     font-family: "Oswald";
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: -5px;
 }
 
 .container {
@@ -154,7 +154,6 @@ html{
     justify-content: space-between; /* Evenly space the projects across the screen */
     max-width: 800px; /* Set a maximum width for the container */
     margin: 0 auto; /* Center the container horizontally on the screen */
-    padding: 5px;
     vertical-align: top;
   }
   
